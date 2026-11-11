@@ -4,16 +4,23 @@ Loader: Forge 47.x
 
 English language keys: 1389
 Spanish keys already present in the original mod: 613
-Additional Spanish keys in this companion: 66
-English keys still requiring translation: 713
+Additional Spanish keys in this companion: 216
+English keys still requiring translation: 563
 
-The companion currently adds translations for the skill tree, selected spells,
-items, class names, key bindings and the headshot skill. The complete Spanish
-main-quest script and epilogue (23 quests + epilogue) are at:
+Translated areas in this companion:
+- Skill tree and selected spell descriptions
+- Item names and descriptions
+- Class names and skill ownership labels
+- Key bindings and skill hotbar labels
+- Sub-quest dialogue
+- Entity names
+- Gameplay messages, tooltips, subtitles and HUD labels
+
+The Spanish main-quest script and epilogue (23 quests + epilogue) are at:
 src/main/resources/assets/epicclassmod/quests/es_es.txt
 
 The original mod's 613 Spanish entries are not duplicated in this repository.
-They remain supplied by Epic Class Mod itself. The 66-key JSON here is an
+They remain supplied by Epic Class Mod itself. The 216-key JSON here is an
 incremental language patch, not a replacement for the original language file.
 
 Important: resource precedence and quest loading must still be verified
