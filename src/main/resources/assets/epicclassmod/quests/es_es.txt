@@ -1,0 +1,226 @@
+# Guion de misiones principales — Español neutro
+# Títulos, diálogos y solicitudes de Aurelia. Los requisitos, recompensas y el progreso
+# se obtienen automáticamente de los datos de misiones del mod original.
+#
+#   === número · título     inicia una misión
+#   ---                    página siguiente
+#   --- ask                última página (también es la descripción del libro de misiones)
+#   --- yes / --- no       agrega [Sí] [No] a la página anterior (solo misión 1)
+#   === end · …            diálogo final tras completar la última misión
+#   # al inicio de línea   comentario (no aparece en el juego)
+#   §e … §r                texto amarillo
+#
+# No escribir números de misión dentro del texto. Tono: Aurelia habla con respeto y brevedad al héroe.
+
+# ━━━━━━━━━━━━━━━━ Capítulo 1 · Una tierra extraña ━━━━━━━━━━━━━━━━
+
+=== 1 · Un nuevo viaje
+Hola, héroe. Despertar en un lugar desconocido debió de ser desconcertante. Quien te trajo a este mundo... fui yo, Aurelia.
+---
+Hace algunos años comenzaron a abrirse grietas dimensionales por todo este mundo. Al principio eran pequeñas fisuras, pero cada año se hacen más grandes.
+---
+La oscuridad que se filtra por ellas recorre la tierra convertida en monstruos durante la noche. Cuando se pone el sol, los aldeanos cierran sus puertas y contienen la respiración.
+---
+La fuerza de este mundo no bastaba para cerrar las grietas. Por eso llamé a un alma de otro mundo: a ti. Lamento sinceramente haberte impuesto semejante carga.
+---
+A partir de ahora permaneceré a tu lado y te guiaré. Para empezar, ¿quieres que te explique cómo vivir en este mundo?
+--- yes
+# Al cerrar la guía para principiantes se muestra esta página
+Con esto basta para dar el primer paso. Si quieres volver a consultarla, puedes abrirla cuando quieras desde §e[M] → Ajustes§r.
+--- no
+Entendido. Si algo te desconcierta, puedes abrir la guía cuando quieras desde §e[M] → Ajustes§r.
+--- ask
+Esta es mi primera petición: reúne un poco de tierra, troncos y arena para que puedas acostumbrarte a este lugar.
+
+
+=== 2 · Los primeros pasos
+Buen trabajo, héroe. Seguro que el olor de esta tierra ya te resulta un poco más familiar.
+---
+Pero pronto se pondrá el sol. Cuando llegue la noche, la oscuridad de las grietas saldrá convertida en monstruos. Tu primera noche puede parecer interminable.
+--- ask
+Coloca suficientes antorchas para iluminar los alrededores y enfréntate a los monstruos que se acerquen. Y no olvides dormir en la cama que te entregué. Aunque caigas, volverás a despertar allí.
+
+
+=== 3 · Bajo tierra
+Has superado tu primera noche. Me alegra... la verdad es que estaba un poco preocupada.
+---
+Para sobrevivir en este mundo, debes aprender a dominar el fuego. Incluso los minerales que duermen bajo tierra solo resultan útiles cuando entran en contacto con las llamas.
+--- ask
+Desciende bajo tierra hasta llegar a la pizarra profunda oscura. Funde en un horno el cobre que extraigas y también convierte arena en cristal. Necesitarás dominar esto antes de poder trabajar el hierro.
+
+
+=== 4 · El umbral del hierro
+Ya te has acostumbrado al fuego del horno. Ahora es momento de adentrarte más.
+---
+El hierro duerme en lo profundo de las cuevas. Cuanto más oscuro sea el lugar, más monstruos encontrarás, así que no olvides las antorchas.
+--- ask
+Tráeme lingotes de hierro y cuero. Con ellos podré prepararte herramientas más resistentes.
+
+
+# ━━━━━━━━━━━━━━━━ Capítulo 2 · La legión de la noche ━━━━━━━━━━━━━━━━
+
+=== 5 · Los que caminan de noche
+Los aldeanos dicen que últimamente no pueden dormir. Cada noche escuchan más golpes en sus puertas.
+---
+Cuanto más se ensanchan las grietas, más profunda se vuelve la oscuridad y más monstruos aparecen. Si nadie hace nada, una aldea entera podría desaparecer en poco tiempo.
+--- ask
+Sal de noche y reduce sus filas. Zombis, esqueletos, arañas, creepers... también los que habitan en las cuevas. Pero no te esfuerces más de la cuenta.
+
+
+=== 6 · La promesa del campo verde
+Desde que hay menos monstruos, los aldeanos han vuelto a trabajar en sus campos. Todo es gracias a ti.
+---
+Pero no habrás estado saltándote las comidas mientras luchabas, ¿verdad? El hambre debilita hasta la espada más afilada. Y la caza por sí sola no bastará para llenar la mesa durante mucho tiempo.
+--- ask
+Cría animales emparejándolos y prueba a pescar junto al agua. También te pido que prepares pan. A cambio, te entregaré unas semillas muy valiosas.
+
+
+=== 7 · Juramento de acero
+Con el estómago lleno, el corazón se mantiene firme. Ahora toca proteger tu cuerpo.
+---
+Los enemigos que te esperan serán mucho más fuertes que los que has enfrentado hasta ahora. Una armadura de cota de malla no resistirá demasiado.
+--- ask
+Reúne hierro y oro, e intenta comerciar con los aldeanos. Conocerlos mejor te será de gran ayuda más adelante. Con ese hierro te forjaré una armadura completa.
+
+
+=== 8 · Guardián de la aldea
+Héroe, ¿te has enterado? Un grupo ha levantado una torre de vigilancia más allá del bosque.
+---
+La oscuridad de las grietas no solo crea monstruos. Cuando se infiltra en el corazón de una persona... la convierte en saqueador. Incendian aldeas y se llevan a sus habitantes.
+--- ask
+Encuentra la torre y derrota a los saqueadores. Pero ten cuidado: si derrotas al capitán que lleva el estandarte, una maldición se te quedará pegada. Si entras así en una aldea, acudirán en masa; bebe leche para eliminarla. Regresa a salvo y te daré un talismán capaz de evitar tu muerte una vez.
+
+
+=== 9 · El umbral de la magia
+La aldea vuelve a estar tranquila. Gracias, héroe.
+---
+Creo que ha llegado el momento de contártelo. La magia de este mundo nace de la misma raíz que las grietas. Para cerrarlas, tendrás que aprender a dominar ese poder.
+--- ask
+Tráeme diamantes, lapislázuli, libros y amatistas. Te prepararé una mesa de encantamientos y haré que tu poder interior aumente un nivel más.
+
+
+=== 10 · El tesoro del mar
+¿Sientes cómo empieza a fluir la magia? Ese poder te protegerá de ahora en adelante.
+---
+Déjame contarte una historia sobre los antiguos héroes. Escondieron un tesoro bajo el mar para que algún día pudiera encontrarlo el siguiente héroe.
+--- ask
+Primero, usa la mesa de encantamientos para imbuir tu equipo de poder. Sería aún mejor conseguir algo que te permita respirar más tiempo bajo el agua. Después, encuentra un mapa del tesoro en un naufragio o en unas ruinas oceánicas y tráeme el corazón del mar que se encuentra en el cofre señalado por el mapa.
+
+
+=== 11 · La brújula del explorador
+El corazón del mar... De verdad has conseguido encontrarlo. Lo guardaré bien. Llegará el día en que lo necesitemos.
+---
+Los registros del cofre hablaban de los discípulos de los antiguos héroes. Todavía esperan en algún lugar del mundo a alguien como tú. Están muy lejos.
+--- ask
+Doma un caballo para que te acompañe en el largo viaje, y fabrica un catalejo y un mapa. Te daré un Viaje ancestral que te mostrará el camino hasta ellos, además de una silla de montar para tu caballo.
+
+
+# ━━━━━━━━━━━━━━━━ Capítulo 3 · La grieta de fuego ━━━━━━━━━━━━━━━━
+
+=== 12 · La puerta de fuego
+Ahora debo contarte la verdad. Todas las grietas que has visto hasta ahora son solo ramificaciones pequeñas.
+---
+La grieta más grande se encuentra bajo tierra, donde conecta con el mundo del fuego. La oscuridad brota sin cesar desde el otro lado. Los piglins de allí no suelen atacar a quienes llevan oro.
+--- ask
+Tráeme lava, diamantes y oro. Te daré lo necesario para abrir la puerta al mundo del fuego y para resistir allí. Con el oro te prepararé un casco.
+
+
+=== 13 · La fortaleza del Nether
+¿Qué te ha parecido el mundo del fuego? Hace tanto calor que cuesta respirar. Incluso ese calor es obra de la grieta.
+---
+Allí se alza una fortaleza construida con ladrillos oscuros. Los blazes, espíritus del fuego, la protegen junto a soldados esqueléticos ennegrecidos por las llamas.
+--- ask
+Encuentra la fortaleza y derrota a los blazes y a los esqueletos que la protegen. No olvides recoger las varas que sueltan los blazes. Te daré una armadura de diamante para que resistas los combates que vienen.
+
+
+=== 14 · El camino del alquimista
+Has regresado sano y salvo de la fortaleza. La armadura te queda muy bien.
+---
+¿Viste las verrugas del Nether que crecen dentro de la fortaleza? Con ellas se pueden preparar pociones. Y... los aldeanos devorados por la oscuridad y convertidos en zombis también pueden recuperar su forma con ayuda de pociones.
+--- ask
+Fabrica un soporte para pociones con una vara de blaze y prepara pociones de curación y fuerza. Después, lanza una poción arrojadiza de debilidad a un aldeano zombi y dale una manzana dorada para devolverlo a su forma humana.
+
+
+=== 15 · El bastión de los piglins
+Todavía llevas el olor de las pociones en las manos. Muy bien hecho, héroe.
+---
+Los piglins, que aman el oro, habitan el mundo del fuego. Reunieron el oro que escapó de la grieta y construyeron enormes bastiones. Algunos, llamados brutos, no se dejan apaciguar ni siquiera con oro.
+--- ask
+Lanza lingotes de oro a los piglins e intercambia objetos con ellos. Después, derrota a los brutos del bastión. Junto con el resto de la armadura de diamante, te entregaré un nuevo poder.
+
+
+=== 16 · La llama ancestral
+Has regresado del bastión. Ahora pocas cosas podrán detenerte en el mundo del fuego.
+---
+En las profundidades de esa tierra duerme una brasa que lleva miles de años sin apagarse. Los antiguos héroes la utilizaban para forjar sus armas.
+--- ask
+Tráeme escombros ancestrales. Solo se pueden extraer con un pico de diamante. Haré que esa brasa vuelva a la vida convertida en metal.
+
+
+# ━━━━━━━━━━━━━━━━ Capítulo 4 · El camino hacia el End ━━━━━━━━━━━━━━━━
+
+=== 17 · El templo de las profundidades
+Desde que regresaste del mundo del fuego, las grietas se han calmado un poco. Pero ahora algo extraño sucede en el mar.
+---
+La energía de la grieta se filtra desde un templo bajo el océano. Allí viven guardianes muy antiguos que parecen haber sido corrompidos por la oscuridad.
+--- ask
+Derrota al guardián anciano del templo. No podrás aguantar mucho tiempo bajo el agua, así que prepárate bien. Cuando regreses, te haré un regalo con el corazón del mar que dejaste a mi cuidado.
+
+
+=== 18 · Héroe de la aldea
+Esto es grave, héroe. Esta vez los saqueadores están reuniendo un ejército.
+---
+No son como el grupo de la torre de vigilancia. Dirigen bestias y los acompañan hechiceros. Pretenden arrasar una aldea entera.
+--- ask
+Construye un gólem de hierro con bloques de hierro y una calabaza tallada para que luche a tu lado y proteja la aldea. Después, derrota al capitán que lleva el estandarte para atraerlos y resiste hasta el final. Proteger la aldea es tarea de un héroe.
+
+
+=== 19 · La oscuridad profunda
+Los aldeanos han empezado a llamarte héroe. Yo también estoy... un poco orgullosa.
+---
+Esta vez debes tener mucho cuidado. En las profundidades de la tierra hay una ciudad que devora el sonido. Allí duerme algo más antiguo que las propias grietas.
+--- ask
+Agáchate y pasa en silencio junto a los sensores de sculk. Así podrás encontrar fragmentos de eco en los cofres de la ciudad. No despiertes bajo ninguna circunstancia al guardián de ese lugar. No es un enemigo al que puedas vencer luchando.
+
+
+=== 20 · El ojo de las dimensiones
+Todavía puedo escuchar un leve zumbido en los fragmentos de eco. Es como si señalaran hacia algún lugar.
+---
+Ahora lo entiendo. Todas las grietas comienzan en un mismo lugar: el End. Algo allí está desgarrando este mundo.
+--- ask
+Derrota a los enderman que llevan el poder de esa dimensión y reúne polvo de blaze. Prepararé unos ojos que te permitirán encontrar el portal al End. Ten cuidado de no cruzar la mirada con un enderman.
+
+
+# ━━━━━━━━━━━━━━━━ Capítulo 5 · El End ━━━━━━━━━━━━━━━━
+
+=== 21 · El corazón de la grieta
+Has encontrado el portal. Al otro lado está el End. Una vez entres, no será fácil regresar.
+---
+Allí habita un enorme dragón. Mientras conserve el corazón de la grieta, esta nunca se cerrará. Los cristales de los pilares lo curan, así que destrúyelos primero.
+--- ask
+Héroe, por favor, regresa sano y salvo. Cuando el dragón caiga, las grietas de este mundo comenzarán a cerrarse.
+
+
+=== 22 · Las alas finales
+¡Lo has conseguido, héroe! Las grietas se están cerrando una a una. ¿Notas cómo ha cambiado el cielo?
+---
+En el borde de la isla donde cayó el dragón debería haberse abierto un pequeño portal. Más allá, en las islas exteriores, se alzan ciudades púrpuras donde, según dicen, descansan unas alas capaces de surcar los cielos.
+--- ask
+Lanza una perla de ender al portal para llegar a las islas exteriores. Después, reúne las caparazones de los shulkers que protegen las ciudades. Te haré unas alas. Así podrás llegar a cualquier lugar.
+
+
+=== 23 · El sello de las estrellas
+¿Te gustan tus alas? Un héroe capaz de volar... Nunca lo habría imaginado cuando te llamé por primera vez.
+---
+Pero una de las grietas que se estaban cerrando se ha detenido. La última oscuridad se esconde en los cráneos de los esqueletos del Wither. Coloca tres sobre arena de almas y esa oscuridad despertará convertida en un monstruo de tres cabezas.
+--- ask
+Por favor, derrota al Wither. Con la luz estelar que deje tras de sí podremos sellar la última grieta para siempre. Esta es... mi última petición.
+
+
+=== end · Epílogo
+# Se muestra una sola vez después de completar la misión final. No es una misión y no tiene página de petición.
+Mira, héroe. La última grieta del cielo ha desaparecido. Los monstruos de la noche no desaparecerán por completo, pero ya no habrá más.
+---
+Cuando te llamé por primera vez a este mundo, lamenté haberte impuesto una carga tan pesada. Pero has recorrido todo el camino hasta el final.
+---
+Gracias, héroe. Este mundo también es tuyo ahora. Quédate cuanto quieras y vive como desees.
