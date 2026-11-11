@@ -3,12 +3,19 @@ Minecraft: 1.20.1
 Loader: Forge 47.x
 
 English language keys: 1389
-Existing Spanish language keys in the original mod: 613
-Keys still requiring translation: 779
+Spanish keys already present in the original mod: 613
+Additional Spanish keys in this companion: 66
+English keys still requiring translation: 713
 
-The Spanish main-quest script is being maintained separately at:
+The companion currently adds translations for the skill tree, selected spells,
+items, class names, key bindings and the headshot skill. The complete Spanish
+main-quest script and epilogue (23 quests + epilogue) are at:
 src/main/resources/assets/epicclassmod/quests/es_es.txt
 
-Important: this repository scaffold does not claim that all interface, item,
-spell, entity, and class-quest strings have been translated. The language
-resource must be tested in-game to verify resource-pack precedence.
+The original mod's 613 Spanish entries are not duplicated in this repository.
+They remain supplied by Epic Class Mod itself. The 66-key JSON here is an
+incremental language patch, not a replacement for the original language file.
+
+Important: resource precedence and quest loading must still be verified
+in-game with Epic Class Mod 3.0.2 and Forge 47.x. A successful build alone
+does not prove that the game selected the translated resources.
