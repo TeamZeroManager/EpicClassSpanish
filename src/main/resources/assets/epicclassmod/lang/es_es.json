@@ -142,7 +142,7 @@
   "msg.epicclassmod.shadowless_blocked": "No hay forma de atravesarlo.",
   "msg.epicclassmod.mountainbreaker_ground": "Debes estar en el suelo para reunir fuerzas.",
   "message.epicclassmod.fate_dice.no_class": "Elige una clase antes de lanzar el dado.",
-  "message.epicclassmod.fate_dice.got": "Dado del destino: has obtenido el libro del hechizo de la habilidad %s.",
+  "message.epicclassmod.fate_dice.got": "Dado del destino: has obtenido el libro de hechizos de la habilidad %s: %s.",
   "message.epicclassmod.fate_dice.dup": "Dado del destino: ya conoces %s, así que se convirtió en %s de polvo estelar.",
   "message.epicclassmod.fate_dice.broadcast": "¡%s obtuvo la habilidad mítica %s al lanzar un Dado del destino!",
   "message.epicclassmod.stardust_exchange.not_enough": "No tienes suficiente polvo estelar.",
