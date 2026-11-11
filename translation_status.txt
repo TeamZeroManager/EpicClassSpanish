@@ -2,28 +2,30 @@ Epic Class Mod 3.0.2
 Minecraft: 1.20.1
 Loader: Forge 47.x
 
-English language keys: 1389
+English language keys in the original mod: 1389
 Spanish keys already present in the original mod: 613
-Additional Spanish keys in this companion: 717
-English keys still requiring translation: 62
+Additional Spanish keys translated by this companion: 779
+English keys without a Spanish translation: 0
 
-Translated areas in this companion:
-- Skill tree, class selection, spellbook UI and quest interface
-- Quest objectives, side-quest titles, summaries and event messages
-- All item names, item descriptions and spellbook names
-- Class names, skill names, skill ownership labels and spell lore
-- Key bindings and skill hotbar labels
-- Main, side-quest and class-quest dialogue
-- Entity names
-- Gameplay messages, tooltips, subtitles and HUD labels
+The companion now supplies the complete set of 779 keys that were missing
+from the original Spanish language file. Together with the 613 Spanish
+entries already included by Epic Class Mod 3.0.2, all 1389 English language
+keys have a Spanish counterpart.
+
+Translated areas include the interface, skill tree, classes, items, spellbooks,
+spell names and guides, quest objectives, main and side-quest dialogue,
+class quests, entities, gameplay messages, tooltips, subtitles and HUD.
 
 The Spanish main-quest script and epilogue (23 quests + epilogue) are at:
 src/main/resources/assets/epicclassmod/quests/es_es.txt
 
-The original mod's 613 Spanish entries are not duplicated in this repository.
-They remain supplied by Epic Class Mod itself. The 717-key JSON here is an
-incremental language patch, not a replacement for the original language file.
+Validation still required:
+- Run the resource validator and confirm every patch key exists in en_us.json
+  from the original 3.0.2 JAR, with matching format placeholders.
+- Build the Forge JAR.
+- Verify in-game that the companion's language and quest resources take
+  precedence over the original mod's resources.
+- Play through the menus and quests to check text layout and context.
 
-Important: resource precedence and quest loading must still be verified
-in-game with Epic Class Mod 3.0.2 and Forge 47.x. A successful build alone
-does not prove that the game selected the translated resources.
+A complete translation file does not by itself prove that Minecraft loads
+the resources from this companion correctly.
