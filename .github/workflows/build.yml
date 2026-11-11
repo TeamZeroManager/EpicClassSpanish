@@ -18,6 +18,12 @@ jobs:
         with:
           distribution: temurin
           java-version: '17'
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Validate translation resources
+        run: python tools/validate_resources.py
       - name: Set up Gradle
         uses: gradle/actions/setup-gradle@v4
         with:
