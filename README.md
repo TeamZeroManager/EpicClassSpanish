@@ -10,7 +10,7 @@ Añadir recursos en español sin modificar las clases, habilidades, estadística
 
 - Minecraft 1.20.1
 - Minecraft Forge 47.x
-- Epic Class Mod 3.0.2 o superior
+- Epic Class Mod 3.0.2
 - Java 17
 
 ## Contenido actual
