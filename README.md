@@ -30,10 +30,10 @@ La cobertura de claves de idioma ya está completa. Aún falta validar en el jue
 
 1. Instala Java 17.
 2. Abre el proyecto con IntelliJ IDEA o Eclipse, o ejecuta Gradle desde una terminal.
-3. Ejecuta `gradle build` (o `gradlew build` si tienes un wrapper local).
-4. El JAR se genera en `build/libs/epicclassspanish-1.0.0.jar`.
-5. Coloca el JAR junto al Epic Class Mod original en la carpeta `mods`.
-6. Inicia Minecraft con el idioma Español (España).
+3. Ejecuta `python tools/validate_resources.py` para comprobar el JSON y las misiones. Si tienes el JAR original, valida también las claves y los marcadores con `python tools/validate_resources.py --original-jar ruta/al/epicclassmod-3.0.2.jar`.\n4. Ejecuta `gradle build` (o `gradlew build` si tienes un wrapper local).
+5. El JAR se genera en `build/libs/epicclassspanish-1.0.0.jar`.
+6. Coloca el JAR junto al Epic Class Mod original en la carpeta `mods`.
+7. Inicia Minecraft con el idioma Español (España).
 
 ## Pruebas pendientes
 
