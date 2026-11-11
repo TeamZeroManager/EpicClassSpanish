@@ -1,0 +1,14 @@
+Epic Class Mod 3.0.2
+Minecraft: 1.20.1
+Loader: Forge 47.x
+
+English language keys: 1389
+Existing Spanish language keys in the original mod: 613
+Keys still requiring translation: 779
+
+The Spanish main-quest script is being maintained separately at:
+src/main/resources/assets/epicclassmod/quests/es_es.txt
+
+Important: this repository scaffold does not claim that all interface, item,
+spell, entity, and class-quest strings have been translated. The language
+resource must be tested in-game to verify resource-pack precedence.
