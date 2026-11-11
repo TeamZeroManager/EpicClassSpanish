@@ -16,13 +16,13 @@ Añadir recursos en español sin modificar las clases, habilidades, estadística
 ## Contenido actual
 
 - Guion en español de las **23 misiones principales y el epílogo**, en `src/main/resources/assets/epicclassmod/quests/es_es.txt`.
-- Parche incremental de idioma con **216 claves nuevas** en `src/main/resources/assets/epicclassmod/lang/es_es.json`.
+- Parche incremental de idioma con **318 claves nuevas** en `src/main/resources/assets/epicclassmod/lang/es_es.json`.
 - Traducciones para partes del árbol de habilidades, hechizos seleccionados, objetos, nombres de clases, controles, diálogos secundarios, entidades, mensajes, tooltips, subtítulos y elementos del HUD.
 - Proyecto ForgeGradle, metadatos del mod y flujo de compilación en GitHub Actions.
 
 ## Estado de traducción
 
-La versión 3.0.2 contiene 1.389 claves en inglés. El mod original ya incluye 613 claves en español y este complemento añade otras 216. Quedan **563 claves** por traducir. Consulta [translation_status.txt](translation_status.txt) para ver el recuento y las áreas pendientes.
+La versión 3.0.2 contiene 1.389 claves en inglés. El mod original ya incluye 613 claves en español y este complemento añade otras 318. Quedan **461 claves** por traducir. Consulta [translation_status.txt](translation_status.txt) para ver el recuento y las áreas pendientes.
 
 Las traducciones se irán incorporando por secciones. No se marcará una sección como terminada hasta revisar sus textos y probarla dentro del juego.
 
