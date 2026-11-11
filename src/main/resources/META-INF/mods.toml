@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="epicclassspanish"
+version="1.0.0"
+displayName="Epic Class Mod - Español"
+authors="xJbyss"
+description='''Traducción no oficial al español neutro para Epic Class Mod 3.0.2. Este complemento no modifica las mecánicas del mod original.'''
+
+[[dependencies.epicclassspanish]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.epicclassspanish]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.epicclassspanish]]
+modId="epicclassmod"
+mandatory=true
+versionRange="[3.0.2,)"
+ordering="AFTER"
+side="BOTH"
